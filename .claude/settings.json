@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.productcompass.pm)",
+      "WebFetch(domain:martinb-ai.github.io)"
+    ]
+  }
+}
