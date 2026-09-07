@@ -55,7 +55,7 @@
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Team collaboration](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/people)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to split founder responsibilities, set working norms, and structure advisor relationships.
+Fill in this context file with the **[Enable team collaboration](https://app.productmap.io/agents/team-collaboration-leadership)** agent on [Product Map](https://app.productmap.io/agents). Use it to split founder responsibilities, set working norms, and structure advisor relationships.
 
 ## Related
 

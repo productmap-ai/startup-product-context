@@ -36,7 +36,7 @@ A lightweight monthly close keeps numbers trustworthy for decisions and investor
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Calculate unit economics](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_unit_economics)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to connect operational spend to per-customer economics and spot where money leaks.
+Fill in this context file with the **[Calculate unit economics](https://app.productmap.io/agents/unit-economics)** agent on [Product Map](https://app.productmap.io/agents). Use it to connect operational spend to per-customer economics and spot where money leaks.
 
 ## Related
 

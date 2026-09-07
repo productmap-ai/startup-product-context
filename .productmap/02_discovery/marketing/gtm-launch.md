@@ -56,7 +56,7 @@ Go-to-market plan for a first launch: one beachhead segment, one clear message, 
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Define strategy and roadmap](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/strategy)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to pick the beachhead, sharpen the positioning statement, and turn channel ideas into ranked bets.
+Fill in this context file with the **[Define strategy and roadmap](https://app.productmap.io/agents/product-strategy-roadmap)** agent on [Product Map](https://app.productmap.io/agents). Use it to pick the beachhead, sharpen the positioning statement, and turn channel ideas into ranked bets.
 
 ## Related
 

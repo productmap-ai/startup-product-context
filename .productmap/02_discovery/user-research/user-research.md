@@ -24,7 +24,7 @@ User research work generates the qualitative and quantitative evidence needed to
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Plan and run user research](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/product_user_research)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to match methods to your research question, design study plans, and structure synthesis that leads to a product decision.
+Fill in this context file with the **[Plan and run user research](https://app.productmap.io/agents/user-research-planner)** agent on [Product Map](https://app.productmap.io/agents). Use it to match methods to your research question, design study plans, and structure synthesis that leads to a product decision.
 
 ## Related
 

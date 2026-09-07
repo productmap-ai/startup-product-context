@@ -54,7 +54,7 @@ Use this table to compare opportunities side by side before committing to one.
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Product discovery to solution](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/generation)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to compare opportunities, score strategic fit, and decide what to validate next.
+Fill in this context file with the **[Product discovery to solution](https://app.productmap.io/agents/product-discovery-ideation)** agent on [Product Map](https://app.productmap.io/agents). Use it to compare opportunities, score strategic fit, and decide what to validate next.
 
 ## Related
 

@@ -80,7 +80,7 @@ Prioritisation is not just about what to do — it is about what not to do. Comm
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Prioritize product backlog](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/process)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to score items with RICE or MoSCoW, fill in prioritization tables, and document defensible trade-offs.
+Fill in this context file with the **[Prioritize product backlog](https://app.productmap.io/agents/backlog-prioritization)** agent on [Product Map](https://app.productmap.io/agents). Use it to score items with RICE or MoSCoW, fill in prioritization tables, and document defensible trade-offs.
 
 ## Related
 

@@ -111,7 +111,7 @@ _What this benchmark captures and what it does not (pricing dynamics, brand, dis
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Define strategy and roadmap](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/strategy)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to populate comparison dimensions, score competitors, and turn gaps into roadmap bets.
+Fill in this context file with the **[Define strategy and roadmap](https://app.productmap.io/agents/product-strategy-roadmap)** agent on [Product Map](https://app.productmap.io/agents). Use it to populate comparison dimensions, score competitors, and turn gaps into roadmap bets.
 
 ## Related
 

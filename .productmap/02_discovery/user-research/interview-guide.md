@@ -54,7 +54,7 @@ After every interview, save notes or the transcript to [06_data/interviews/](../
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Plan and run user research](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/product_user_research)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to tailor questions to your segment and hypothesis, pressure-test them for bias, and structure synthesis across interviews.
+Fill in this context file with the **[Plan customer interviews](https://app.productmap.io/agents/customer-interview-planner)** agent on [Product Map](https://app.productmap.io/agents). Use it to tailor questions to your segment and hypothesis, pressure-test them for bias, and structure synthesis across interviews.
 
 ## Related
 

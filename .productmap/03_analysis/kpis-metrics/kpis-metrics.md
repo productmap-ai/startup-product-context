@@ -23,7 +23,7 @@ KPI and metrics work establishes the measurement system that tells product teams
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Make data-driven decisions](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/analysis)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to define your north star metric, build KPI trees, and set outcome metrics that guide product priorities.
+Fill in this context file with the **[Make data-driven decisions](https://app.productmap.io/agents/data-driven-product-decisions)** agent on [Product Map](https://app.productmap.io/agents). Use it to define your north star metric, build KPI trees, and set outcome metrics that guide product priorities.
 
 ## Related
 

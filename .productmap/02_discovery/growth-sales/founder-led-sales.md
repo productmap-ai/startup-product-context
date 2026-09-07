@@ -61,7 +61,7 @@ Hire the first salesperson only when all of these are true:
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Define ICP and segments](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_icp)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to sharpen the target list, qualify prospects against your ICP, and tune outreach to each segment.
+Fill in this context file with the **[Define ICP and segments](https://app.productmap.io/agents/ideal-customer-profile-icp)** agent on [Product Map](https://app.productmap.io/agents). Use it to sharpen the target list, qualify prospects against your ICP, and tune outreach to each segment.
 
 ## Related
 

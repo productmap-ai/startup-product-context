@@ -39,7 +39,7 @@ Discovery-phase experiments test your riskiest assumptions before you build. Eve
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Validate your startup idea](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_idea)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to turn assumptions into testable hypotheses, pick the cheapest adequate experiment, and set pass/fail criteria before you run.
+Fill in this context file with the **[Validate startup idea](https://app.productmap.io/agents/startup-idea-validation)** agent on [Product Map](https://app.productmap.io/agents). Use it to turn assumptions into testable hypotheses, pick the cheapest adequate experiment, and set pass/fail criteria before you run.
 
 ## Related
 

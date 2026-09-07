@@ -59,7 +59,7 @@ Exclude companies that:
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Define ICP and segments](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_icp)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to profile your ideal company buyer, map firmographic fit, and sharpen B2B positioning.
+Fill in this context file with the **[Define ICP and segments](https://app.productmap.io/agents/ideal-customer-profile-icp)** agent on [Product Map](https://app.productmap.io/agents). Use it to profile your ideal company buyer, map firmographic fit, and sharpen B2B positioning.
 
 ## Related
 

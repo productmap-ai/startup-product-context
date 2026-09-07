@@ -39,7 +39,7 @@ Plot the % of each signup cohort still active week by week. **A curve that flatt
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Validate your startup idea](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_idea)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to design your PMF survey, read your retention curve honestly, and decide what evidence to collect next.
+Fill in this context file with the **[Validate startup idea](https://app.productmap.io/agents/startup-idea-validation)** agent on [Product Map](https://app.productmap.io/agents). Use it to design your PMF survey, read your retention curve honestly, and decide what evidence to collect next.
 
 ## Related
 

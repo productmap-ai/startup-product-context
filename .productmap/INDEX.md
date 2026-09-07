@@ -87,10 +87,10 @@ Raw, unprocessed inputs — not curated knowledge. Agents should prefer structur
 
 ---
 
-## Product Map Project
+## Product Map AI Agents
 
-Open this knowledge base in Product Map to work with AI agents using your project context:
+Browse the [AI Agents catalog](https://app.productmap.io/agents) to work with AI agents using your project context:
 
-**[Open project in Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab)**
+**[Open AI Agents](https://app.productmap.io/agents)**
 
 Project ID: `7bb2afe1-1ee8-498d-9b5a-006d7d076eab`

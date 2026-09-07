@@ -88,7 +88,7 @@ Where this goes if it works — the big version of the company, in one memorable
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Prepare early stage pitch](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_preseed_pitch)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to tighten the narrative arc from problem to ask.
+Fill in this context file with the **[Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch)** agent on [Product Map](https://app.productmap.io/agents). Use it to tighten the narrative arc from problem to ask.
 
 ## Related
 

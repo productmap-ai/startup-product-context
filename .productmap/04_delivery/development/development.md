@@ -19,7 +19,7 @@ Development work covers the technical documentation and design decision practice
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Write PRD and feature spec](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/product_prd)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to draft technical requirements, acceptance criteria, and engineering-ready specs that reduce ambiguity before build.
+Fill in this context file with the **[Write PRD and feature spec](https://app.productmap.io/agents/prd-specification)** agent on [Product Map](https://app.productmap.io/agents). Use it to draft technical requirements, acceptance criteria, and engineering-ready specs that reduce ambiguity before build.
 
 ## Related
 

@@ -41,7 +41,7 @@ Paul Graham's question: with current revenue growth and expenses held constant, 
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Calculate unit economics](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/startups_unit_economics)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to model how burn, pricing, and CAC interact and how far current runway stretches under different assumptions.
+Fill in this context file with the **[Calculate unit economics](https://app.productmap.io/agents/unit-economics)** agent on [Product Map](https://app.productmap.io/agents). Use it to model how burn, pricing, and CAC interact and how far current runway stretches under different assumptions.
 
 ## Related
 

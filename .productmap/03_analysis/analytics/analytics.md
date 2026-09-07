@@ -21,7 +21,7 @@ Analytics work turns raw product data into structured insights about user behavi
 
 ## Product Map AI Agent
 
-Fill in this context file with the **[Make data-driven decisions](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab/chat/analysis)** agent on [Product Map](https://app.productmap.io/profile/assistant/7bb2afe1-1ee8-498d-9b5a-006d7d076eab). Use it to design funnel analyses, cohort reviews, and experiment readouts that support product decisions.
+Fill in this context file with the **[Make data-driven decisions](https://app.productmap.io/agents/data-driven-product-decisions)** agent on [Product Map](https://app.productmap.io/agents). Use it to design funnel analyses, cohort reviews, and experiment readouts that support product decisions.
 
 ## Related
 
