@@ -15,7 +15,7 @@ This repository is a **simplified product context for early-stage startups**. Pr
 
 ## Path mapping (from full PM context)
 
-Skills and prompts may reference the full [product-management-context](https://github.com/productmap-ai/product-management-context) taxonomy. Map to this repo as follows:
+The skills in this repo cite the startup tree directly. Skills and prompts brought in from the full [product-management-context](https://github.com/productmap-ai/product-management-context) repo use its taxonomy. Map it to this repo as follows:
 
 | Full PM context | Startup context |
 |-----------------|-----------------|

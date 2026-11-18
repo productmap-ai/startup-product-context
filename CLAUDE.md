@@ -21,7 +21,7 @@ All content lives under [.productmap/](.productmap/). See [.productmap/INDEX.md]
 
 ## Path mapping (from full PM context)
 
-Skills may reference paths from the full [product-management-context](https://github.com/productmap-ai/product-management-context) repo. Map them here:
+The skills in this repo cite the startup tree directly. If you also install skills from the full [product-management-context](https://github.com/productmap-ai/product-management-context) repo, map their paths here:
 
 | Full PM context | Startup context |
 |-----------------|-----------------|
@@ -40,25 +40,24 @@ Skills may reference paths from the full [product-management-context](https://gi
 
 ## Skills
 
-- **Claude Code:** domain-specific PM skills live under [.claude/skills/](.claude/skills/). Each skill encodes a PM practice and is invoked via `/skill-name` or auto-matched by description.
-- **Gemini CLI:** workflows created for Gemini (long-context synthesis, structured docs, AI specs) live under [.gemini/skills/](.gemini/skills/); see [GEMINI.md](GEMINI.md).
-- **Codex:** repo-local skills under [.codex/skills/](.codex/skills/).
+- **Claude Code:** founder practice guides live under [.claude/skills/](.claude/skills/). Each skill encodes one founder practice and is invoked via `/skill-name` or auto-matched by description.
+- **Codex:** artifact runbooks with a copy-paste prompt live under [.codex/skills/](.codex/skills/); see [.codex/skills/README.md](.codex/skills/README.md).
+- **Gemini CLI:** long-context synthesis workflows, each with a sub-agent prompt, live under [.gemini/skills/](.gemini/skills/); see [.gemini/README.md](.gemini/README.md).
 
-Prefer skills over ad-hoc prompts for recurring PM tasks.
+Each tool has its own list of ten, built around the startup agents on Product Map. Prefer skills over ad-hoc prompts for recurring founder tasks.
 
-| Skill | Command | Purpose |
-|-------|---------|---------|
-| agile-scrum-delivery | `/agile-scrum-delivery` | Sprint planning, ceremonies, and agile delivery workflows |
-| go-to-market | `/go-to-market` | GTM strategy, messaging, and launch planning |
-| interview-plan-questions | `/interview-plan-questions` | Generate a tailored 30–60 min interview question guide for founder customer discovery (pre-PMF) or UX / needfinding interviews |
-| okrs-goal-setting | `/okrs-goal-setting` | OKR setting, cascade maps, and goal alignment |
-| prd-requirements | `/prd-requirements` | Write, review, or scope PRDs, specs, and user stories |
-| prioritization-rice | `/prioritization-rice` | RICE scoring and backlog prioritization |
-| product-market-fit | `/product-market-fit` | PMF assessment, competitive analysis, and positioning |
-| product-metrics-kpis | `/product-metrics-kpis` | North star, KPI trees, and metric frameworks |
-| product-strategy-roadmap | `/product-strategy-roadmap` | Product vision, roadmap formats, and strategic planning |
-| unit-economics | `/unit-economics` | LTV:CAC model and contribution margin analysis |
-| user-research-interviews | `/user-research-interviews` | Research plans, interview guides, and synthesis |
+| Skill | Command | Purpose | Product Map agent |
+|-------|---------|---------|-------------------|
+| startup-idea-validation | `/startup-idea-validation` | Stress-test the problem, audience, fit and market; choose what to validate first | [Validate startup idea](https://app.productmap.io/agents/startup-idea-validation) |
+| pre-seed-pitch-narrative | `/pre-seed-pitch-narrative` | Build the investor story in eight beats, from problem to ask | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| fundraising-strategy | `/fundraising-strategy` | Decide whether, when and how much to raise, and from whom | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| value-proposition-positioning | `/value-proposition-positioning` | Value Proposition Canvas, fit check and a positioning statement to test | [Build unique value proposition](https://app.productmap.io/agents/value-proposition-positioning) |
+| monetization-pricing | `/monetization-pricing` | Pick the pricing model, value metric and tiers; check willingness to pay | [Define monetization strategy](https://app.productmap.io/agents/monetization-pricing) |
+| founder-led-sales | `/founder-led-sales` | Go from ICP to first paying customers through outreach, discovery calls and closing | [Define ICP and segments](https://app.productmap.io/agents/ideal-customer-profile-icp) |
+| growth-loops-engine | `/growth-loops-engine` | Find the bottleneck, pick the growth engine and design growth loops | [Build product growth strategy](https://app.productmap.io/agents/growth-marketing) |
+| digital-marketing-campaigns | `/digital-marketing-campaigns` | Growth brief, channel choice and ranked campaign ideas | [Create digital marketing ideas](https://app.productmap.io/agents/digital-product-marketing) |
+| runway-burn-planning | `/runway-burn-planning` | Burn, runway, scenarios, and cut or raise triggers | [Calculate unit economics](https://app.productmap.io/agents/unit-economics) |
+| cofounder-alignment | `/cofounder-alignment` | Roles, equity, vesting, decision rights and working norms | [Enable team collaboration](https://app.productmap.io/agents/team-collaboration-leadership) |
 
 ## Conventions
 

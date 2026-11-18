@@ -26,7 +26,7 @@ The [`.productmap/`](.productmap/) folder is a curated startup taxonomy (company
 2. Fill in `.productmap/` with your startup's facts — team, product one-pager, ICP, roadmap, metrics, and so on. Templates are embedded in each file; there is no separate templates folder.
 3. Skim [`.productmap/INDEX.md`](.productmap/INDEX.md) so you know where worksheets and overviews live.
 4. For day-to-day work in Cursor, `@`-mention or paste paths to the relevant files under `.productmap/` instead of pasting unstructured blobs into chat.
-5. For a recurring task (PMF assessment, interview guide, MVP scope, GTM plan), open the matching folder under [`.claude/skills/`](.claude/skills/), [`.codex/skills/`](.codex/skills/), or [`.gemini/skills/`](.gemini/skills/) and follow `SKILL.md` rather than improvising.
+5. For a recurring task (idea validation, pitch narrative, pricing page audit, launch readiness review), open the matching folder under [`.claude/skills/`](.claude/skills/), [`.codex/skills/`](.codex/skills/), or [`.gemini/skills/`](.gemini/skills/) and follow `SKILL.md` rather than improvising.
 6. Put initiative-specific artifacts in `.productmap/00_company/product/`. Put interviews, exports, and raw feedback in `.productmap/06_data/`.
 7. Use absolute dates (`YYYY-MM-DD`) in anything you write back to the repo.
 
@@ -68,9 +68,54 @@ Each pass gets faster when knowledge compounds and context stays clean. When out
 
 This repository is structured so the open [`skills`](https://github.com/vercel-labs/skills) CLI can discover installable skills: each skill is a folder with a `SKILL.md` that includes YAML frontmatter (`name` and `description` as plain strings). Skills live under [`.claude/skills/`](.claude/skills/) (Claude Code), [`.codex/skills/`](.codex/skills/) (Codex), and [`.gemini/skills/`](.gemini/skills/) (Gemini CLI). The CLI scans `.claude/skills/` and `.codex/skills/` on its own. [`skills.sh.json`](skills.sh.json) adds `.gemini/skills/` to its search paths, so the Gemini skills install from their real files (`SKILL.md` plus `subagent-prompt.md`).
 
-Every `SKILL.md` ends with a "Related on Product Map" section that links the matching [agents](https://app.productmap.io/agents) and [workflows](https://app.productmap.io/workflows), so you can run the same job on your own product context.
+The skills are founder jobs, and each tool gets its own list, built around the startup [agents](https://app.productmap.io/agents) on Product Map. Every `SKILL.md` ends with a "Related on Product Map" section that links the matching agent and, where one fits, a [workflow](https://app.productmap.io/workflows), so you can run the same job on your own product context.
 
-A healthy clone should report **31** discoverable skills (11 Claude + 10 Codex + 10 Gemini). After you publish the repo to **public GitHub**, others can install with `npx skills add owner/repo`.
+**Claude Code: practice guides** ([`.claude/skills/`](.claude/skills/)). Each one teaches a founder practice end to end: when to use it, the frameworks, a workflow, pitfalls and artifact skeletons.
+
+| Skill | What it does | Product Map agent |
+| --- | --- | --- |
+| [`startup-idea-validation`](.claude/skills/startup-idea-validation/SKILL.md) | Stress-test the problem, audience, fit and market; choose what to validate first | [Validate startup idea](https://app.productmap.io/agents/startup-idea-validation) |
+| [`pre-seed-pitch-narrative`](.claude/skills/pre-seed-pitch-narrative/SKILL.md) | Build the investor story in eight beats, from problem to ask | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| [`fundraising-strategy`](.claude/skills/fundraising-strategy/SKILL.md) | Decide whether, when and how much to raise, and from whom | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| [`value-proposition-positioning`](.claude/skills/value-proposition-positioning/SKILL.md) | Value Proposition Canvas, fit check and a positioning statement to test | [Build unique value proposition](https://app.productmap.io/agents/value-proposition-positioning) |
+| [`monetization-pricing`](.claude/skills/monetization-pricing/SKILL.md) | Pick the pricing model, value metric and tiers; check willingness to pay | [Define monetization strategy](https://app.productmap.io/agents/monetization-pricing) |
+| [`founder-led-sales`](.claude/skills/founder-led-sales/SKILL.md) | Go from ICP to first paying customers through outreach, discovery calls and closing | [Define ICP and segments](https://app.productmap.io/agents/ideal-customer-profile-icp) |
+| [`growth-loops-engine`](.claude/skills/growth-loops-engine/SKILL.md) | Find the bottleneck, pick the growth engine and design growth loops | [Build product growth strategy](https://app.productmap.io/agents/growth-marketing) |
+| [`digital-marketing-campaigns`](.claude/skills/digital-marketing-campaigns/SKILL.md) | Growth brief, channel choice and ranked campaign ideas | [Create digital marketing ideas](https://app.productmap.io/agents/digital-product-marketing) |
+| [`runway-burn-planning`](.claude/skills/runway-burn-planning/SKILL.md) | Burn, runway, scenarios, and cut or raise triggers | [Calculate unit economics](https://app.productmap.io/agents/unit-economics) |
+| [`cofounder-alignment`](.claude/skills/cofounder-alignment/SKILL.md) | Roles, equity, vesting, decision rights and working norms | [Enable team collaboration](https://app.productmap.io/agents/team-collaboration-leadership) |
+
+**Codex: artifact runbooks** ([`.codex/skills/`](.codex/skills/)). Each one produces a single artifact from stated inputs, with a copy-paste prompt and a quality checklist.
+
+| Skill | What it does | Product Map agent |
+| --- | --- | --- |
+| [`startup-one-pager`](.codex/skills/startup-one-pager/SKILL.md) | One-pager with ranked riskiest assumptions | [Validate startup idea](https://app.productmap.io/agents/startup-idea-validation) |
+| [`investor-qa-prep`](.codex/skills/investor-qa-prep/SKILL.md) | Hard investor questions with drafted answers and evidence gaps | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| [`investor-pipeline-tracker`](.codex/skills/investor-pipeline-tracker/SKILL.md) | Investor target list, stages and next actions | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| [`landing-page-smoke-test`](.codex/skills/landing-page-smoke-test/SKILL.md) | Landing copy plus a test card with pass/fail criteria | [Build unique value proposition](https://app.productmap.io/agents/value-proposition-positioning) |
+| [`pricing-page-audit`](.codex/skills/pricing-page-audit/SKILL.md) | Scored pricing-page audit across six pillars, with fixes | [Define monetization strategy](https://app.productmap.io/agents/monetization-pricing) |
+| [`mvp-build-stack-decision`](.codex/skills/mvp-build-stack-decision/SKILL.md) | No-code, low-code, AI-assisted or custom, as a decision record | [Scope and challenge MVP](https://app.productmap.io/agents/mvp-scope-decision) |
+| [`launch-channel-test-cards`](.codex/skills/launch-channel-test-cards/SKILL.md) | First launch plan and channel test cards with kill, iterate or scale rules | [Build go-to-market strategy](https://app.productmap.io/agents/go-to-market-strategy) |
+| [`growth-experiment-sprint`](.codex/skills/growth-experiment-sprint/SKILL.md) | Four-week growth sprint with three experiment cards | [Build product growth strategy](https://app.productmap.io/agents/growth-marketing) |
+| [`design-partner-program`](.codex/skills/design-partner-program/SKILL.md) | Design-partner criteria, offer, feedback cadence and path to paid | [Define ICP and segments](https://app.productmap.io/agents/ideal-customer-profile-icp) |
+| [`startup-financial-model`](.codex/skills/startup-financial-model/SKILL.md) | 18–24 month driver-based model with labeled assumptions | [Calculate unit economics](https://app.productmap.io/agents/unit-economics) |
+
+**Gemini CLI: long-context synthesis** ([`.gemini/skills/`](.gemini/skills/)). Each one reads a lot at once (the whole context tree, many transcripts, long pages) and returns one structured document. Every folder pairs `SKILL.md` with a `subagent-prompt.md`.
+
+| Skill | What it does | Product Map agent |
+| --- | --- | --- |
+| [`startup-launch-readiness-review`](.gemini/skills/startup-launch-readiness-review/SKILL.md) | Reads the whole context tree and scores a 12-step launch checklist | [Track startup launch](https://app.productmap.io/agents/startup-launch-tracker) |
+| [`startup-context-bootstrap`](.gemini/skills/startup-context-bootstrap/SKILL.md) | Turns a site, deck and raw notes into filled context files | [Define strategy and roadmap](https://app.productmap.io/agents/product-strategy-roadmap) |
+| [`market-sizing-decision-memo`](.gemini/skills/market-sizing-decision-memo/SKILL.md) | Bottom-up TAM/SAM/SOM and a one-page decision memo | [Run market research](https://app.productmap.io/agents/market-research) |
+| [`competitor-teardown-matrix`](.gemini/skills/competitor-teardown-matrix/SKILL.md) | Public pages into a 0–3 matrix and match, ignore or differentiate calls | [Run competitor analysis](https://app.productmap.io/agents/competitor-analysis) |
+| [`pivot-or-persevere-review`](.gemini/skills/pivot-or-persevere-review/SKILL.md) | Evidence against kill criteria, a verdict per assumption, and a decision memo | [Validate startup idea](https://app.productmap.io/agents/startup-idea-validation) |
+| [`investor-update-memo`](.gemini/skills/investor-update-memo/SKILL.md) | Monthly investor update from metrics and notes | [Prepare early stage pitch](https://app.productmap.io/agents/preseed-investor-pitch) |
+| [`launch-retro-synthesis`](.gemini/skills/launch-retro-synthesis/SKILL.md) | 30-day post-launch retro across channels, funnel and feedback | [Build go-to-market strategy](https://app.productmap.io/agents/go-to-market-strategy) |
+| [`pricing-research-synthesis`](.gemini/skills/pricing-research-synthesis/SKILL.md) | Willingness-to-pay research and competitor pricing into a recommendation | [Define monetization strategy](https://app.productmap.io/agents/monetization-pricing) |
+| [`mvp-scope-cut-review`](.gemini/skills/mvp-scope-cut-review/SKILL.md) | Challenges the backlog against the riskiest assumption, then keep, cut or defer | [Scope and challenge MVP](https://app.productmap.io/agents/mvp-scope-decision) |
+| [`founder-weekly-review`](.gemini/skills/founder-weekly-review/SKILL.md) | One-page weekly review of metrics, runway, experiments and priorities | [Make data-driven decisions](https://app.productmap.io/agents/data-driven-product-decisions) |
+
+A healthy clone should report **30** discoverable skills (10 Claude + 10 Codex + 10 Gemini). After you publish the repo to **public GitHub**, others can install with `npx skills add owner/repo`.
 
 ```bash
 # List skills the CLI discovers from this repo (run from a clone)
@@ -88,7 +133,7 @@ npx skills add YOUR_GITHUB_USERNAME/startup-product-context
 - Codex skills. Repo-local PM skills for Codex: [`.codex/skills/`](.codex/skills/) (see [`.codex/skills/README.md`](.codex/skills/README.md)).
 - [`skills.sh.json`](skills.sh.json). Tells the `skills` CLI to also look for skills under `.gemini/skills/`.
 
-Skills may reference paths from the full [product-management-context](https://github.com/productmap-ai/product-management-context) taxonomy. In this repo, map them to the startup tree — see [CLAUDE.md](CLAUDE.md) for the path mapping.
+All skills here cite this repo's startup tree directly. For general PM skills (PRDs, OKRs, prioritization, research synthesis), see [product-management-context](https://github.com/productmap-ai/product-management-context). If you install those skills here, [CLAUDE.md](CLAUDE.md) has the path mapping.
 
 ## About Product Map
 
