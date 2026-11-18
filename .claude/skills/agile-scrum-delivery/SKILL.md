@@ -337,3 +337,10 @@ Teams track feature backlog but ignore **flow debt**: missing environments, flak
 ## Codex companion
 
 For a Codex-oriented runbook and copy-paste prompt block, use `.codex/skills/agile-scrum-delivery/SKILL.md`.
+
+## Related on Product Map
+
+- Agent: **[Prioritize product backlog](https://app.productmap.io/agents/backlog-prioritization)** — break down backlog stories into prioritized tasks.
+- Workflow: **[Backlog to PRD and release](https://app.productmap.io/workflows/backlog-to-prd-and-release)** — prioritize the backlog, write the PRD and feature spec, then draft release notes.
+
+More AI PM agents from Product Map: https://www.productmap.io/

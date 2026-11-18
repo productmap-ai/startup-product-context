@@ -292,3 +292,10 @@ Use these wording patterns (replace `[Product]` with your product name):
 - Retention window matches **natural usage** of the category.
 - Failure mode stated; next steps map to that mode.
 - Repo paths cited for any material claim drawn from this knowledge base.
+
+## Related on Product Map
+
+- Agent: **[Validate startup idea](https://app.productmap.io/agents/startup-idea-validation)** — challenge your startup idea and shape vision.
+- Workflow: **[User research to opportunities](https://app.productmap.io/workflows/user-research-to-opportunities)** — plan and run user research, plan customer interviews, then go from discovery to solution.
+
+More AI PM agents from Product Map: https://www.productmap.io/

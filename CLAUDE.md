@@ -21,7 +21,7 @@ All content lives under [.productmap/](.productmap/). See [.productmap/INDEX.md]
 
 ## Path mapping (from full PM context)
 
-Skills may reference paths from the full [product-management-context](https://github.com/productmap-io/product-management-context) repo. Map them here:
+Skills may reference paths from the full [product-management-context](https://github.com/productmap-ai/product-management-context) repo. Map them here:
 
 | Full PM context | Startup context |
 |-----------------|-----------------|

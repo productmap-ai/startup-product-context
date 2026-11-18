@@ -107,3 +107,5 @@ Fill in this context file with the **[Build unique value proposition](https://ap
 - [product-vision.md](./product-vision.md)
 - [../../01_strategy/segmentation/segmentation.md](../../01_strategy/segmentation/segmentation.md)
 - [../../01_strategy/competitors/competitor-matrix.md](../../01_strategy/competitors/competitor-matrix.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

@@ -131,3 +131,9 @@ Output format:
 - Every major claim is tagged `EVIDENCE` or `ASSUMPTION`; open unknowns are explicitly `QUESTION`.
 - All dates are in `YYYY-MM-DD`.
 
+## Related on Product Map
+
+- Agent: **[Define ICP and segments](https://app.productmap.io/agents/ideal-customer-profile-icp)** — clarify target customers and your positioning.
+- Workflow: **[Market research to positioning](https://app.productmap.io/workflows/market-research-to-positioning)** — run market research, run competitor analysis, then build a unique value proposition.
+
+More AI PM agents from Product Map: https://www.productmap.io/

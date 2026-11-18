@@ -61,3 +61,5 @@ Discuss roles, expectations, and difficult founder conversations with the **[Ena
 - [incorporation.md](./incorporation.md)
 - [ip-and-contracts.md](./ip-and-contracts.md)
 - [00_company/team.md](../../00_company/team.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

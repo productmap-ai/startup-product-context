@@ -94,3 +94,5 @@ Browse the [AI Agents catalog](https://app.productmap.io/agents) to work with AI
 **[Open AI Agents](https://app.productmap.io/agents)**
 
 Project ID: `7bb2afe1-1ee8-498d-9b5a-006d7d076eab`
+
+More AI PM agents from Product Map: https://www.productmap.io/

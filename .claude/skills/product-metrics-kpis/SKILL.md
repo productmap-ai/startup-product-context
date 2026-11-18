@@ -291,3 +291,9 @@ Always replace placeholders with **definitions** and **baselines** for the userâ
 ---
 
 Strong metrics discipline is **definition discipline**; frameworks only organize the work.
+
+## Related on Product Map
+
+- Agent: **[Make data-driven decisions](https://app.productmap.io/agents/data-driven-product-decisions)** â€” use KPIs, analytics, and finance to drive product.
+
+More AI PM agents from Product Map: https://www.productmap.io/

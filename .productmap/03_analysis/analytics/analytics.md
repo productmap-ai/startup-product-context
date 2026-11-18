@@ -27,3 +27,5 @@ Fill in this context file with the **[Make data-driven decisions](https://app.pr
 
 - [03_analysis/kpis-metrics/kpis-metrics.md](../kpis-metrics/kpis-metrics.md)
 - [02_discovery/experiments/experiments.md](../../02_discovery/experiments/experiments.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

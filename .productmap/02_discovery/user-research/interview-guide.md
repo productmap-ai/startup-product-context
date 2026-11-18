@@ -61,3 +61,5 @@ Fill in this context file with the **[Plan customer interviews](https://app.prod
 - [user-research.md](./user-research.md)
 - [problem-framing.md](./problem-framing.md)
 - [Validation Experiments](../experiments/experiments.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

@@ -68,3 +68,5 @@ Fill in this context file with the **[Define ICP and segments](https://app.produ
 - [growth-sales.md](./growth-sales.md)
 - [ICP B2B](../../01_strategy/segmentation/icp-b2b.md)
 - [GTM & Launch](../marketing/gtm-launch.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

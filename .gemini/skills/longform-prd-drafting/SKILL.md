@@ -20,3 +20,10 @@ description: Drafts and refines long-form PRDs using repo templates, traceable r
 ## Delegation
 
 For a dedicated worker with full behavioral instructions, pass [subagent-prompt.md](subagent-prompt.md) as the sub-agent system prompt.
+
+## Related on Product Map
+
+- Agent: **[Write PRD and feature spec](https://app.productmap.io/agents/prd-specification)** — turn features into specs ready for engineering.
+- Workflow: **[Backlog to PRD and release](https://app.productmap.io/workflows/backlog-to-prd-and-release)** — prioritize the backlog, write the PRD and feature spec, then draft release notes.
+
+More AI PM agents from Product Map: https://www.productmap.io/

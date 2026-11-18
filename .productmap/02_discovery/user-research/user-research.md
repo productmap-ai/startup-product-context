@@ -30,3 +30,5 @@ Fill in this context file with the **[Plan and run user research](https://app.pr
 
 - [01_strategy/segmentation/segmentation.md](../../01_strategy/segmentation/segmentation.md)
 - [Validation Experiments](../experiments/experiments.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

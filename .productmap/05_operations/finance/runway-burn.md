@@ -48,3 +48,5 @@ Fill in this context file with the **[Calculate unit economics](https://app.prod
 - [finance.md](./finance.md)
 - [financial-model.md](./financial-model.md)
 - [00_company/fundraising/fundraising-strategy.md](../../00_company/fundraising/fundraising-strategy.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

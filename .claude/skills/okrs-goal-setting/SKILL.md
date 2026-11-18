@@ -262,3 +262,9 @@ Use sections aligned to `.productmap/09_templates/okr-template.md` (extend if th
 ---
 
 This skill complements delivery and analytics material in the same repo; keep OKR documents **small**, **measurable**, and **honest** about trade-offs.
+
+## Related on Product Map
+
+- Agent: **[Define strategy and roadmap](https://app.productmap.io/agents/product-strategy-roadmap)** — improve your product strategy and roadmap.
+
+More AI PM agents from Product Map: https://www.productmap.io/

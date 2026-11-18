@@ -19,3 +19,10 @@ description: Produces market and competitive analysis briefs that synthesize pos
 ## Delegation
 
 Use [subagent-prompt.md](subagent-prompt.md) for a sub-agent that produces executive-ready competitive briefs.
+
+## Related on Product Map
+
+- Agent: **[Run competitor analysis](https://app.productmap.io/agents/competitor-analysis)** — map competitors, score the matrix, find your edge.
+- Workflow: **[Market research to positioning](https://app.productmap.io/workflows/market-research-to-positioning)** — run market research, run competitor analysis, then build a unique value proposition.
+
+More AI PM agents from Product Map: https://www.productmap.io/

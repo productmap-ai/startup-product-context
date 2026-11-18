@@ -158,3 +158,10 @@ Output format (Markdown):
 - Open questions are prioritized and directly reduce uncertainty in the model.
 - Next steps map back to assumptions/risks and produce concrete outputs.
 - “Repo paths referenced” lists all repo sources consulted (starting with `.productmap/index.md`).
+
+## Related on Product Map
+
+- Agent: **[Validate startup idea](https://app.productmap.io/agents/startup-idea-validation)** — challenge your startup idea and shape vision.
+- Workflow: **[Product idea to MVP scope](https://app.productmap.io/workflows/product-idea-to-mvp-scope)** — validate the product idea, define strategy and roadmap, then scope and challenge the MVP.
+
+More AI PM agents from Product Map: https://www.productmap.io/

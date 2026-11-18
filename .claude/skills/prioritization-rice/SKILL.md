@@ -255,3 +255,10 @@ Use ICE when reach is intentionally **held constant** (same funnel surface, same
 - Rubric anchors exist; scores are **debated as assumptions**, not argued as personality.
 - Rank order flips under sensitivity analysis are **resolved with evidence plans**, not hidden weights.
 - Overrides are **explicit**; the model is not silently bent to match politics.
+
+## Related on Product Map
+
+- Agent: **[Prioritize product backlog](https://app.productmap.io/agents/backlog-prioritization)** — break down backlog stories into prioritized tasks.
+- Workflow: **[Backlog to PRD and release](https://app.productmap.io/workflows/backlog-to-prd-and-release)** — prioritize the backlog, write the PRD and feature spec, then draft release notes.
+
+More AI PM agents from Product Map: https://www.productmap.io/

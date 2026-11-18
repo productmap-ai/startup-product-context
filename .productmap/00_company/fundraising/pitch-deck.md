@@ -96,3 +96,5 @@ Fill in this context file with the **[Prepare early stage pitch](https://app.pro
 - [investor-pipeline.md](./investor-pipeline.md)
 - [../product/value-proposition.md](../product/value-proposition.md)
 - [../../01_strategy/competitors/competitor-matrix.md](../../01_strategy/competitors/competitor-matrix.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/

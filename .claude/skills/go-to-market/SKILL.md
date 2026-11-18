@@ -338,3 +338,10 @@ If partner-led is material:
 ## Codex companion
 
 For a Codex-oriented runbook and copy-paste prompt block, use `.codex/skills/go-to-market/SKILL.md`.
+
+## Related on Product Map
+
+- Agent: **[Build go-to-market strategy](https://app.productmap.io/agents/go-to-market-strategy)** — choose your GTM motion, channels, and launch plan.
+- Workflow: **[GTM strategy to growth loops](https://app.productmap.io/workflows/gtm-strategy-to-growth-loops)** — prepare the go-to-market strategy, generate digital marketing ideas, then plan growth loops.
+
+More AI PM agents from Product Map: https://www.productmap.io/

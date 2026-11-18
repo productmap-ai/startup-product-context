@@ -28,3 +28,5 @@ Fill in this context file with the **[Define ICP and segments](https://app.produ
 
 - [01_strategy/product-market-fit/product-market-fit.md](../product-market-fit/product-market-fit.md)
 - [Founder-led Sales](../../02_discovery/growth-sales/founder-led-sales.md)
+
+More AI PM agents from Product Map: https://www.productmap.io/
